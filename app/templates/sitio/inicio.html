@@ -1,0 +1,18 @@
+ {% include 'sitio/cabecera.html'%}  
+ <!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/inicio.css') }}">
+    <title>Inicio</title>
+</head>
+<section class="Inicio">
+    <div id="txtInicio">
+        <h1>Encuentra tu estilo perfecto</h1><br>
+        <p>Descubre tu estilo único y viste con confianza. Encuentra la ropa que te empodera
+             y deja que tu personalidad brille a través de cada prenda.
+        </p>
+        <div id="btnConoce">
+            <a href="index_muestra_de_productos"><p>SHOP NOW</p></a>
+        </div>
+    </div>
+</section>
+{% include 'sitio/pie.html'%}
