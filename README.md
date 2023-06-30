@@ -1,13 +1,4 @@
-### Pagina_web_DB_localhost (proceso)
-
-**requerimientos:**
-1.-tener instalado xampp
-2.- Tener instalado vscode
-3.-entorno virtual en vscode (opcional)
-4.- librerias instaladas en vscode (flask, flask-mysql)
-
-**Instalacion de xampp**
-1.- descarguelo a travéz del url: https://www.apachefriends.org/download.html
+### Pagina_web_DB_
 
 **Creacion del entorno virtual en vscode**
 1.- abra una terminal y ejecute el siguiente comando:
@@ -26,29 +17,12 @@
 **Si ocurre un error al iniciar el entorno virtual ejecute lo siguiente**
 `$ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
-**Instalacion de flask y flask-mysql**
-1.-ejecute en la terminal:
-`$ pip install flask`
-`$ pip install flask-mysql`
-
 **instalacion de librerias a travez de requeriments.txt**
 IMPORTANTE: tener la carpeta app y el archivo requeriments en el mismo sitio en el que se encuentra la carpeta env. Quedando
 
 [![example.png](https://i.postimg.cc/3x65gP8N/example.png)](https://postimg.cc/tshMbvVG)
 
 `$ pip install -r .\requeriments.txt`
-
-**Abrir XAMPP-CONTROL PANEL**
-Una vez abierto, activar(presionar start) en Apache y MySQL
-dirigirse a la url:
-http://localhost/phpmyadmin/ 
-esta será nuestra base de datos con el nombre de 'web'
-**configuracion de localhost/phpmyadmin**
-1.-estando dentro de la direccion http://localhost/phpmyadmin/ crear una nueva base de datos con el nombre de 'web'
-2.- dentro de esta base de datos llamada 'web'(importante que tenga este nombre) hacer click en la parte superior a 'importar'
-3.- seleccion el archivo web.sql e importalo.
-[![example-03.png](https://i.postimg.cc/T2q19jZk/example-03.png)](https://postimg.cc/Lh5m4P4f)
-Deberia quedar de esta manera
 
 **EJECUTAR LA PAGINA WEB**
 IMPORTANTE: Tener activado el entorno virtual 
